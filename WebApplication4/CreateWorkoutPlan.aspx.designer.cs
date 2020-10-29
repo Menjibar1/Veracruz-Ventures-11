@@ -42,6 +42,15 @@ namespace WebApplication4
         protected global::System.Web.UI.WebControls.TextBox Field;
 
         /// <summary>
+        /// Crop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Crop;
+
+        /// <summary>
         /// ActivityType control.
         /// </summary>
         /// <remarks>
@@ -58,24 +67,6 @@ namespace WebApplication4
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox DateDue;
-
-        /// <summary>
-        /// StartTime control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StartTime;
-
-        /// <summary>
-        /// StopTime control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StopTime;
 
         /// <summary>
         /// Cost control.
@@ -96,31 +87,13 @@ namespace WebApplication4
         protected global::System.Web.UI.WebControls.TextBox FieldAcres;
 
         /// <summary>
-        /// RunTime control.
+        /// ActiveIngredient control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox RunTime;
-
-        /// <summary>
-        /// AvgFlowGPM control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AvgFlowGPM;
-
-        /// <summary>
-        /// TotalWater control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TotalWater;
+        protected global::System.Web.UI.WebControls.TextBox ActiveIngredient;
 
         /// <summary>
         /// Button1 control.

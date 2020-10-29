@@ -19,6 +19,10 @@
             <asp:TextBox ID="Field" runat="server"></asp:TextBox>
         </p>
         <p>
+            Crop:
+            <asp:TextBox ID="Crop" runat="server"></asp:TextBox>
+        </p>
+        <p>
             Activity Name:
             <asp:TextBox ID="ActivityType" runat="server"></asp:TextBox>
         </p>
@@ -27,31 +31,16 @@
             <asp:TextBox ID="DateDue" runat="server"></asp:TextBox>
         </p>
         <p>
-            Start Time:
-            <asp:TextBox ID="StartTime" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            Stop Time:
-            <asp:TextBox ID="StopTime" runat="server"></asp:TextBox>
-        </p>
-        <p>
             Cost:
             <asp:TextBox ID="Cost" runat="server"></asp:TextBox>
         </p>
         <p>
-            Field Acres:
+            Acres:
             <asp:TextBox ID="FieldAcres" runat="server"></asp:TextBox>
         </p>
         <p>
-            Run Time:
-            <asp:TextBox ID="RunTime" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            Average Flow Gpm:&nbsp;
-            <asp:TextBox ID="AvgFlowGPM" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            Total Water Applied Ratio: <asp:TextBox ID="TotalWater" runat="server"></asp:TextBox>
+            Active Ingredient:
+            <asp:TextBox ID="ActiveIngredient" runat="server"></asp:TextBox>
         </p>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Create" />
         <p>

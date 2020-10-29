@@ -8,15 +8,15 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style="color: #FFFFFF; background-color: #4A6868">
     <form id="form1" runat="server">
         <div>
             <asp:DropDownList ID="DropDownList1" AutoPostBack="true" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
             </asp:DropDownList>
             <br />
-            <asp:Chart ID="Chart1" runat="server" Height="1000px" Width="1000px">
+            <asp:Chart ID="Chart1" runat="server" Height="800px" Width="800px" Palette="EarthTones">
                 <Titles>
-                    <asp:Title Text="Costs of Fields"></asp:Title>
+                    <asp:Title Text="Acres of Fields"></asp:Title>
                 </Titles>
                 <series>
                     <asp:Series Name="Series1" ChartArea="ChartArea1" ChartType="Pie">
@@ -25,7 +25,7 @@
                 <chartareas>
                     <asp:ChartArea Name="ChartArea1">
                         <AxisX Title="Field"></AxisX>
-                        <AxisY Title="Cost ($)"></AxisY>
+                        <AxisY Title="Acres"></AxisY>
                     </asp:ChartArea>
                 </chartareas>
             </asp:Chart>

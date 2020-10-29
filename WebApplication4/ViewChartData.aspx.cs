@@ -29,7 +29,7 @@ namespace WebApplication4
             {
                 // Command to retrieve Students data from Students table
                 SqlCommand cmd = new
-                    SqlCommand("SELECT Field,sum(CAST(Cost__Dollars AS decimal)) AS Cost__Dollars FROM FieldDataV3 GROUP BY Field", con);
+                SqlCommand("SELECT Field,sum(CAST(Cumulative_Area_acre AS decimal)) AS Acres FROM FieldDataV4 GROUP BY Field", con);
                 con.Open();
                 SqlDataReader rdr = cmd.ExecuteReader();
                 // Retrieve the Series to which we want to add DataPoints
@@ -39,7 +39,7 @@ namespace WebApplication4
                 {
                     // Add X and Y values using AddXY() method
                     series.Points.AddXY(rdr["Field"].ToString(),
-                        rdr["Cost__Dollars"]);
+                        rdr["Acres"]);
                 }
             }
         }
