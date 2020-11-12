@@ -68,8 +68,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BootStrapCreateFarmData.aspx" />
+    <Content Include="BootStrapCreateUserPage.aspx" />
+    <Content Include="BootStrapLoginPage.aspx" />
+    <Content Include="CalendarPage.aspx" />
     <Content Include="CreateWorkoutPlan.aspx" />
+    <Content Include="crop.jpg" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="gym-logo.jpg" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
     <Content Include="Veracruz.jpg" />
     <Content Include="ViewChartData.aspx" />
     <Content Include="ViewFarmData.aspx" />
@@ -78,6 +93,34 @@
     <Content Include="CreateUserPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BootStrapCreateFarmData.aspx.cs">
+      <DependentUpon>BootStrapCreateFarmData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootStrapCreateFarmData.aspx.designer.cs">
+      <DependentUpon>BootStrapCreateFarmData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BootStrapCreateUserPage.aspx.cs">
+      <DependentUpon>BootStrapCreateUserPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootStrapCreateUserPage.aspx.designer.cs">
+      <DependentUpon>BootStrapCreateUserPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BootStrapLoginPage.aspx.cs">
+      <DependentUpon>BootStrapLoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootStrapLoginPage.aspx.designer.cs">
+      <DependentUpon>BootStrapLoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarPage.aspx.cs">
+      <DependentUpon>CalendarPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalendarPage.aspx.designer.cs">
+      <DependentUpon>CalendarPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CreateWorkoutPlan.aspx.cs">
       <DependentUpon>CreateWorkoutPlan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +159,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="js\bootstrap.bundle.js.map" />
+    <Content Include="js\bootstrap.bundle.min.js.map" />
+    <Content Include="js\bootstrap.js.map" />
+    <Content Include="js\bootstrap.min.js.map" />
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>

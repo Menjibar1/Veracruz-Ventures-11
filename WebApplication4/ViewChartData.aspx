@@ -7,6 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="css/Bootstrap.css" rel="stylesheet" />
 </head>
 <body style="color: #FFFFFF; background-color: #4A6868">
     <form id="form1" runat="server">
