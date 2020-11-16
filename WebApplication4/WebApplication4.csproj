@@ -71,9 +71,7 @@
     <Content Include="BootStrapCreateFarmData.aspx" />
     <Content Include="BootStrapCreateUserPage.aspx" />
     <Content Include="BootStrapLoginPage.aspx" />
-    <Content Include="CalendarPage.aspx" />
     <Content Include="CreateWorkoutPlan.aspx" />
-    <Content Include="crop.jpg" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
@@ -81,6 +79,7 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="gym-logo.jpg" />
+    <Content Include="Inbox.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
@@ -114,19 +113,19 @@
     <Compile Include="BootStrapLoginPage.aspx.designer.cs">
       <DependentUpon>BootStrapLoginPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CalendarPage.aspx.cs">
-      <DependentUpon>CalendarPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CalendarPage.aspx.designer.cs">
-      <DependentUpon>CalendarPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="CreateWorkoutPlan.aspx.cs">
       <DependentUpon>CreateWorkoutPlan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CreateWorkoutPlan.aspx.designer.cs">
       <DependentUpon>CreateWorkoutPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inbox.aspx.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inbox.aspx.designer.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LoginPage.aspx.cs">
