@@ -30,7 +30,7 @@ namespace WebApplication4
                 if (sdr.Read())
                 {
                     //LoginLabel1.Text = "Login was succesful!";
-                    Response.Redirect("BootStrapCreateFarmData.aspx?msgs=" + "You have succesfully logged in " + uid);
+                    Response.Redirect("Dashboard.aspx?msgs=" + "You have succesfully logged in " + uid);
                 }
                 else
                 {
