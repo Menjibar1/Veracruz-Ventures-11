@@ -18,8 +18,43 @@
 
 <!--Custom styles-->
 <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+    </style>
 </head>
 <body style="background: url(https://blog.ed.gov/files/2019/08/AdobeStock_221344370.jpeg); background-size: cover" class="page-holder bg-cover">
+
+    <ul>
+        <li><a class="active" href="https://localhost:44356/Dashboard.aspx"></a></li>
+        <li><a href="https://localhost:44356/ViewFarmData.aspx">Farms</a></li>
+        <li><a href="https://localhost:44356/ViewChartData.aspx">Farm Charts</a></li>
+        <li><a href="https://localhost:44356/CalendarPage.aspx">Calendar</a></li>
+        <li><a href="https://localhost:44356/Inbox.aspx">Inbox</a></li>
+    </ul>
+
     <div class="container">
 <div class="d-flex justify-content-center h-100">
 <div class="card-header">
@@ -27,6 +62,7 @@
 </head>
     <form id="form1" runat="server">
 <div>  
+
     <h2 style="text-align:center;border:2px solid aqua;background-color:green;color:white">Farm Calendar View</h2>  
     <asp:Calendar ID="Calendar1" runat="server" ShowGridLines="True" OnDayRender="Calendar1_DayRender" OnSelectionChanged="Calendar1_SelectionChanged" BackColor="#FFFFCC" BorderColor="#FFCC66" BorderWidth="3px" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="12pt" ForeColor="#663399" CellPadding="20" CellSpacing="1">  
         <DayHeaderStyle BackColor="#FFCC66" Font-Bold="True" Height="1px" />  

@@ -64,36 +64,29 @@ body {font-family: "Lato", sans-serif;}
 }
 
 
-.button {
-  background-color: #ddd;
-  border-radius: 12px;
-  border: none;
-  color: black;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition: 0.3s;
-  cursor: pointer;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-
-.button1:hover {
-    background-color: #3e8e41;
-    color: white;
-
+li {
+    float: left;
 }
-.button2:hover {
-    background-color: #DAA520;
-    color: white;
 
-}
-.button3:hover {
-    background-color: #B22222;
+li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+            }
 
+li a:hover {
+    background-color: #111;
 }
     
 
@@ -143,31 +136,33 @@ body {font-family: "Lato", sans-serif;}
 </head>
 <body style="background: url(https://blog.ed.gov/files/2019/08/AdobeStock_221344370.jpeg); background-size: cover" class="page-holder bg-cover" font-family: "Lato", helvetica;>
 
+<ul>
+        <li><a class="active" href="https://localhost:44356/Dashboard.aspx"></a></li>
+        <li><a href="https://localhost:44356/ViewFarmData.aspx">Farms</a></li>
+        <li><a href="https://localhost:44356/ViewChartData.aspx">Farm Charts</a></li>
+        <li><a href="https://localhost:44356/CalendarPage.aspx">Calendar</a></li>
+        <li><a href="https://localhost:44356/Inbox.aspx">Inbox</a></li>
+    </ul>
+
 <div class="container">
 <div class="d-flex justify-content-center h-100">
 <div class="card" style=" width: 100rem; margin-top: 200px;">
 <div class="card-header">
 
     <h3 >Inbox</h3>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="https://localhost:44356/Dashboard.aspx%22%3EDashboard">Dashboard</a>
-        <a href="https://localhost:44356/Dashboard.aspx%22%3ECalendar">Inbox</a>
-        <a href="https://localhost:44356/Dashboard.aspx%22%3EInbox">Calender</a>
-        <a href="https://localhost:44356/Dashboard.aspx%22%3EFarms">View Farm Data</a>
-    </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-</div>
+
+
+     
 
 <div class="card-body">
 <!-- <form id="form1" runat="server"> -->
-<div class="form-group">
-    <asp:Button Class="button button1" ID="Button1" runat="server" OnClick="ButtonRead" Text="Mark all as Read" />
-    <asp:Button Class="button button2" ID="Button2" runat="server" OnClick="ButtonFav" Text="Mark as Favorite" />
-    <asp:Button Class="button button3" ID="Button3" runat="server" OnClick="ButtonDel" Text="Delete" />
-    <br />
+   
+    <button type="button" class="btn btn-success" OnClick="ButtonRead">Mark All as Read</button>
+    <button type="button" class="btn btn-warning" OnClick="ButtonFav">Mark as Favorite</button>
+    <button type="button" class="btn btn-danger" OnClick="ButtonDel">Delete</button>
+<br /><br />
 
-    </div>
+
     <h4>Messages</h4>
 
         <div class="tab">

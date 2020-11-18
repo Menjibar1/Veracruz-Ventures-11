@@ -6,8 +6,43 @@
 <head runat="server">
     <title></title>
         <link href="css/Bootstrap.css" rel="stylesheet" />
+
+    <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+    </style>
 </head>
 <body style="color: #FFFFFF; background-color: #4A6868">
+
+    <ul>
+        <li><a class="active" href="https://localhost:44356/Dashboard.aspx"></a></li>
+        <li><a href="https://localhost:44356/ViewFarmData.aspx">Farms</a></li>
+        <li><a href="https://localhost:44356/ViewChartData.aspx">Farm Charts</a></li>
+        <li><a href="https://localhost:44356/CalendarPage.aspx">Calendar</a></li>
+        <li><a href="https://localhost:44356/Inbox.aspx">Inbox</a></li>
+    </ul>
+
     <form id="form1" runat="server">
         <div>
             View Farm Data!<br />
